@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroBook", "HeroBook\HeroBook.csproj", "{3F5BFEF2-EE09-472F-A96F-67ECC50A736E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5BFEF2-EE09-472F-A96F-67ECC50A736E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{3F5BFEF2-EE09-472F-A96F-67ECC50A736E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{3F5BFEF2-EE09-472F-A96F-67ECC50A736E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{3F5BFEF2-EE09-472F-A96F-67ECC50A736E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87385C46-2B52-4D2E-B04C-E7C01EAA46E0}
+	EndGlobalSection
+EndGlobal

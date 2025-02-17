@@ -1,0 +1,129 @@
+﻿{
+  "title": "Haunted Castle",
+  "items": [
+    {
+      "id": 1,
+      "name": "Epee",
+      "description": "Arme"
+    },
+    {
+      "id": 2,
+      "name": "Arc",
+      "description": "Arme"
+    }
+  ],
+  "races": [
+    //"Humain",
+    //"Orc",
+    //"ElfeDeLaNuit",
+    //"Nain",
+    //"Troll",
+    //"MortVivant",
+    {
+      "id": 1,
+      "name": "Humain",
+      "description": "Petit homme à la solde de l'Alliance"
+    },
+    {
+      "id": 2,
+      "name": "Orc",
+      "description": "Créature verte et monstrueuse au compte de la Horde"
+    }
+  ],
+  "classes": [
+    //"Guerrier",
+    //"Mage",
+    //"Voleur",
+    //"Chasseur",
+    //"Paladin",
+    //"Démoniste",
+    {
+      "id": 1,
+      "name": "Guerrier",
+      "description": "Combatant à l'épée"
+    },
+    {
+      "id": 2,
+      "name": "Archer",
+      "description": "Tireur d'élite"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "text": "Test give item",
+      "choices": [
+        {
+          "description": "Continuer",
+          "sectionId": 2,
+          "requirement": null,
+          "reward": {
+            "item": {
+              "id": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Test give gold",
+      "choices": [
+        {
+          "description": "Continuer",
+          "sectionId": 3,
+          "requirement": null,
+          "reward": {
+            "item": null,
+            "gold": "10"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Test require item",
+      "choices": [
+        {
+          "description": "Continuer",
+          "sectionId": 4,
+          "requirement": {
+            "item": {
+              "id": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Test require class",
+      "choices": [
+        {
+          "description": "Continuer",
+          "sectionId": 5,
+          "requirement": {
+            "class": {
+              "id": "1"
+            }
+          }
+        },
+        {
+          "description": "Continuer",
+          "sectionId": 5
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "text": "Vous êtes un aventurier, un éclat solitaire dans le tumulte d’Azeroth, un monde où la lumière et l’ombre s’affrontent sans fin. Depuis des siècles, l’Alliance et la Horde s’écharpent pour la suprématie, leurs bannières ensanglantées flottant au-dessus de champs de bataille ravagés. Mais une menace bien plus sombre s’est glissée dans les interstices de ces guerres. Elle ne brandit pas d’étendard. Elle corrompt, elle consume, et elle surgit dans les montagnes désolées de Grim Batol, où des explorateurs imprudents ont réveillé un mal ancien.\n\nLe Sceptre de Gul’dan. Son nom seul est porteur de calamité. Forgé par le sorcier orc Gul’dan, ce sceptre est une relique maudite, empreinte de la puissance de la Légion Ardente. Ce n’est pas une simple arme, mais une clé. Avec elle, des portails peuvent s’ouvrir vers des dimensions infernales, libérant des hordes démoniaques qui pourraient réduire Azeroth à néant. Plus inquiétant encore, le sceptre a le pouvoir de corrompre les âmes les plus fortes, transformant des héros en marionnettes des ténèbres. Et maintenant, il a refait surface dans les ruines maudites de Kazan-Oud.\n\nLa nouvelle s’est répandue comme une traînée de poudre, attirant les factions les plus dangereuses d’Azeroth. Les Réprouvés, ces morts-vivants libérés de l’emprise du roi-liche mais toujours prisonniers de leur soif de pouvoir, convoitent le sceptre. Sous les ordres de Sylvanas Coursevent, ils espèrent l’utiliser pour renforcer leur peste nécrotique et subjuguer les vivants. Plus au sud, dans la Jungle de Strangleronce, les trolls Gurubashi, dévots fanatiques des dieux sanglants appelés Loas, voient dans le sceptre une offrande divine capable de restaurer leur ancien empire. Et dans les ports infestés de pirates de Baie-du-Butin, des gobelins cupides préparent déjà des enchères, prêts à vendre l’artefact au plus offrant, quelle qu’en soit la conséquence.\n\nPourtant, ces factions ne sont que les pions d’un jeu bien plus vaste. Dans l’ombre, la Légion Ardente observe et attend. Déchue mais jamais détruite, la Légion se régénère, cherchant des brèches pour s’infiltrer à nouveau dans Azeroth. Le sceptre est une porte qu’elle connaît bien, un vestige de son ancienne domination, et ses agents œuvrent déjà dans les coulisses pour le récupérer.\n\nC’est dans ce contexte que votre mission commence. Vous avez été convoqué à Theramore, sur la côte est de Kalimdor, dans la tour délabrée de Jaina Portvaillant. Autrefois radieuse, la mage humaine semble fatiguée, ses traits marqués par les sacrifices qu’elle a faits pour maintenir un semblant de paix entre la Horde et l’Alliance. Face à vous, elle expose la gravité de la situation.\n\n\"Le sceptre de Gul’dan ne doit pas tomber entre de mauvaises mains,\" dit-elle d’une voix calme mais empreinte de détermination. \"Si les Réprouvés l’obtiennent, ils plongeront Azeroth dans une peste éternelle. Si les trolls réussissent leur rituel, nous devrons affronter des horreurs que même nos armées ne pourront contenir. Et si la Légion met la main dessus...\" Elle marque une pause, cherchant ses mots. \"Alors nous sommes déjà morts.\"\n\nElle se lève, laissant entrevoir une carte ancienne marquée de runes et de symboles gravés. \"Votre destination est Kazan-Oud. Une forteresse maudite qui se dresse dans les montagnes de Grim Batol. Peu de ceux qui s’y sont aventurés en sont revenus. Ses couloirs sont hantés par des ombres du passé, et son cœur renferme une horreur que même le sceptre ne peut égaler.\"\n\nL’atmosphère devient plus pesante alors qu’elle décrit les lieux. Vous imaginez les montagnes de Grim Batol, leurs pics déchiquetés enveloppés de brume. Kazan-Oud, massive et imposante, est une cicatrice sur cette terre. Ses murailles noircies par des siècles de guerre suintent une corruption palpable. La rumeur dit que des démons rôdent dans ses profondeurs, des vestiges de la guerre des Anciens, piégés mais toujours assoiffés de sang.\n\n\"Mais avant d’atteindre Kazan-Oud, vous devrez traverser la Jungle de Strangleronce,\" ajoute Jaina. \"Un territoire sauvage où les trolls Gurubashi règnent en maîtres. Leur temple, Zul’Gurub, est un lieu de sacrifices sanglants et de magie interdite. Ils vous traqueront si vous vous approchez de trop près. Et même si vous survivez, il y a Baie-du-Butin : un repaire de pirates et de contrebandiers où personne n’est digne de confiance. Les gobelins y commercent tout, même l’enfer, si le prix est bon.\"\n\nElle vous tend une bourse contenant quelques pièces d’or et une potion de soin. \"Ce n’est pas grand-chose, mais cela pourrait vous sauver. Faites preuve de prudence. Chaque pas dans cette quête vous rapprochera des ténèbres.\"\n\nLa salle est plongée dans un silence lourd. Vous ressentez le poids de cette mission. Le sceptre doit être récupéré, mais une question persiste : que faire une fois qu’il sera entre vos mains ? Le détruire pourrait libérer une magie incontrôlable. Le conserver ferait de vous une cible pour toutes les puissances d’Azeroth. Et si vous échouez, si le sceptre tombe entre de mauvaises mains, tout ce que vous connaissez pourrait disparaître.\n\nVos pensées s’égarent vers Kazan-Oud. Vous pouvez presque entendre son appel, un murmure lointain qui promet pouvoir et désolation. Vous savez que votre voyage sera semé d’embûches. Les Réprouvés, les trolls, les gobelins, et peut-être pire encore vous attendent. Pourtant, une part de vous est prête. Vous avez survécu à des épreuves que d’autres auraient fui. Vous êtes prêt à plonger dans les ténèbres pour affronter ce qui s’y cache.\n\nEt ainsi, l’aventure commence.",
+      "type": "none",
+      "choices": [
+        {
+          "description": "Continuer",
+          "sectionId": 2
+        }
+      ]
+    }
+  ]
+}
